@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c90813c8c7879ee04240431b0df589bd",
+    "content-hash": "34268b8d1f7820e515b8fb1b5834deea",
     "packages": [
         {
             "name": "blade-ui-kit/blade-icons",
@@ -1469,6 +1469,75 @@
                 "source": "https://github.com/laravel/serializable-closure"
             },
             "time": "2025-02-11T15:03:05+00:00"
+        },
+        {
+            "name": "laravel/telescope",
+            "version": "v5.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/telescope.git",
+                "reference": "b4fb98b57f4aeb48b74f79aa7c684a20e302dacd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/telescope/zipball/b4fb98b57f4aeb48b74f79aa7c684a20e302dacd",
+                "reference": "b4fb98b57f4aeb48b74f79aa7c684a20e302dacd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^8.37|^9.0|^10.0|^11.0|^12.0",
+                "php": "^8.0",
+                "symfony/console": "^5.3|^6.0|^7.0",
+                "symfony/var-dumper": "^5.0|^6.0|^7.0"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "guzzlehttp/guzzle": "^6.0|^7.0",
+                "laravel/octane": "^1.4|^2.0|dev-develop",
+                "orchestra/testbench": "^6.40|^7.37|^8.17|^9.0|^10.0",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.0|^10.5|^11.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Telescope\\TelescopeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Telescope\\": "src/",
+                    "Laravel\\Telescope\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Mohamed Said",
+                    "email": "mohamed@laravel.com"
+                }
+            ],
+            "description": "An elegant debug assistant for the Laravel framework.",
+            "keywords": [
+                "debugging",
+                "laravel",
+                "monitoring"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/telescope/issues",
+                "source": "https://github.com/laravel/telescope/tree/v5.12.0"
+            },
+            "time": "2025-09-18T15:08:51+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -5943,6 +6012,74 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.3.0"
             },
             "time": "2024-12-21T16:25:41+00:00"
+        },
+        {
+            "name": "usamamuneerchaudhary/commentify",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/usamamuneerchaudhary/commentify.git",
+                "reference": "e0e651658c379f2a23bc3ccbbfbf2af75c9ff5c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/usamamuneerchaudhary/commentify/zipball/e0e651658c379f2a23bc3ccbbfbf2af75c9ff5c4",
+                "reference": "e0e651658c379f2a23bc3ccbbfbf2af75c9ff5c4",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.9",
+                "illuminate/database": "^12.0",
+                "illuminate/support": "^12.0",
+                "laravel/framework": "^12.0",
+                "laravel/telescope": "^5.0",
+                "livewire/flux": "^2.1.1",
+                "livewire/livewire": "^3.0",
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^10.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Usamamuneerchaudhary\\Commentify\\Providers\\MarkdownServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Usamamuneerchaudhary\\Commentify\\": "src",
+                    "Usamamuneerchaudhary\\Commentify\\Database\\Factories\\": "database/factories"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Usama Muneer",
+                    "email": "hello@usamamuneer.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy Laravel Livewire Comments with TailwindCSS UI",
+            "keywords": [
+                "commentify",
+                "comments",
+                "laravel-livewire",
+                "livewire",
+                "livewire-comments",
+                "usamamuneerchaudhary"
+            ],
+            "support": {
+                "issues": "https://github.com/usamamuneerchaudhary/commentify/issues",
+                "source": "https://github.com/usamamuneerchaudhary/commentify/tree/2.1"
+            },
+            "time": "2025-05-24T19:34:31+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

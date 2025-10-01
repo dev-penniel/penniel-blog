@@ -166,6 +166,9 @@ class extends Component {
             </div>
 
             <livewire:share-article id="{{ $article->id }}" />
+
+            <livewire:comments :model="$article"/>
+
         </div>
 
         {{-- Social Links --}}
@@ -179,6 +182,7 @@ class extends Component {
             </div>
         </div> --}}
     </div>
+
 </div>
 </div>
 

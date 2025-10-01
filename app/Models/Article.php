@@ -5,12 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Spatie\Permission\Traits\HasRoles;
-
+use Usamamuneerchaudhary\Commentify\Traits\Commentable;
 
 class Article extends Model
 {
 
-    use HasRoles;
+    use HasRoles, Commentable;
     
     protected $fillable = [
         'title',
